@@ -87,7 +87,7 @@ video read from disk and the video processing. Parallelizing the video processin
 the same pace as the read from disk, which became
 the only bottleneck, that can not be solved (*on a single computer). 
   <div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="parallel.drawio.png" alt="Processing diagram" style="width: 20%;"/>
+    <img src="parallel.drawio.png" alt="Processing diagram" style="width: 60%;"/>
   </div>
   Our program finishes as soon as the video read finishes,
   providing the fastest analysis possible. The implementation improves speed by a factor of at least 2.
